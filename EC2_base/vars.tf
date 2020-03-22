@@ -8,7 +8,7 @@ locals {
 
 variable "t2_micro_base_instance_count" {
     description = "How many t2_micro instances to create"
-    default = 3
+    default = 4
 }
 
 variable "t2_micro_base_instance_type" {
